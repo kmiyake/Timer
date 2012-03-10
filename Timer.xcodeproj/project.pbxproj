@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24A60AA150B30AA001C1EA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24A60A9150B30AA001C1EA5 /* Cocoa.framework */; };
+		F24A60AC150B30AA001C1EA5 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24A60AB150B30AA001C1EA5 /* MacRuby.framework */; };
+		F24A60B3150B30AB001C1EA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F24A60B1150B30AB001C1EA5 /* InfoPlist.strings */; };
+		F24A60B5150B30AB001C1EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24A60B4150B30AB001C1EA5 /* main.m */; };
+		F24A60BA150B30AB001C1EA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24A60B8150B30AB001C1EA5 /* MainMenu.xib */; };
+		F24A60BD150B30AB001C1EA5 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = F24A60BC150B30AB001C1EA5 /* rb_main.rb */; };
+		F24A60BF150B30AB001C1EA5 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = F24A60BE150B30AB001C1EA5 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F24A60A5150B30AA001C1EA5 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24A60A9150B30AA001C1EA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F24A60AB150B30AA001C1EA5 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		F24A60B0150B30AB001C1EA5 /* Timer-Info.plist */ = {isa = PBXFileReference; path = "Timer-Info.plist"; sourceTree = "<group>"; };
+		F24A60B2150B30AB001C1EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F24A60B4150B30AB001C1EA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24A60B6150B30AB001C1EA5 /* Timer-Prefix.pch */ = {isa = PBXFileReference; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
+		F24A60B9150B30AB001C1EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F24A60BC150B30AB001C1EA5 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		F24A60BE150B30AB001C1EA5 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24A60A2150B30AA001C1EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A60AA150B30AA001C1EA5 /* Cocoa.framework in Frameworks */,
+				F24A60AC150B30AA001C1EA5 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24A609A150B30AA001C1EA5 = {
+			isa = PBXGroup;
+			children = (
+				F24A60AE150B30AB001C1EA5 /* Timer */,
+				F24A60A8150B30AA001C1EA5 /* Frameworks */,
+				F24A60A6150B30AA001C1EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24A60A6150B30AA001C1EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60A5150B30AA001C1EA5 /* Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24A60A8150B30AA001C1EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60A9150B30AA001C1EA5 /* Cocoa.framework */,
+				F24A60AB150B30AA001C1EA5 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24A60AE150B30AB001C1EA5 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60BE150B30AB001C1EA5 /* AppDelegate.rb */,
+				F24A60B7150B30AB001C1EA5 /* Resources */,
+				F24A60BB150B30AB001C1EA5 /* Other Sources */,
+				F24A60AF150B30AB001C1EA5 /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		F24A60AF150B30AB001C1EA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60B0150B30AB001C1EA5 /* Timer-Info.plist */,
+				F24A60B1150B30AB001C1EA5 /* InfoPlist.strings */,
+				F24A60B4150B30AB001C1EA5 /* main.m */,
+				F24A60B6150B30AB001C1EA5 /* Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F24A60B7150B30AB001C1EA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60B8150B30AB001C1EA5 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F24A60BB150B30AB001C1EA5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F24A60BC150B30AB001C1EA5 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		F24A60AD150B30AB001C1EA5 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = F24A60C5150B30AB001C1EA5 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		F24A60A4150B30AA001C1EA5 /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24A60C2150B30AB001C1EA5 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				F24A60A1150B30AA001C1EA5 /* Sources */,
+				F24A60A2150B30AA001C1EA5 /* Frameworks */,
+				F24A60A3150B30AA001C1EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = F24A60A5150B30AA001C1EA5 /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24A609C150B30AA001C1EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F24A609F150B30AA001C1EA5 /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F24A609A150B30AA001C1EA5;
+			productRefGroup = F24A60A6150B30AA001C1EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24A60A4150B30AA001C1EA5 /* Timer */,
+				F24A60AD150B30AB001C1EA5 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24A60A3150B30AA001C1EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A60B3150B30AB001C1EA5 /* InfoPlist.strings in Resources */,
+				F24A60BA150B30AB001C1EA5 /* MainMenu.xib in Resources */,
+				F24A60BD150B30AB001C1EA5 /* rb_main.rb in Resources */,
+				F24A60BF150B30AB001C1EA5 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24A60A1150B30AA001C1EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A60B5150B30AB001C1EA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F24A60B1150B30AB001C1EA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24A60B2150B30AB001C1EA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F24A60B8150B30AB001C1EA5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24A60B9150B30AB001C1EA5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24A60C0150B30AB001C1EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F24A60C1150B30AB001C1EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F24A60C3150B30AB001C1EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F24A60C4150B30AB001C1EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F24A60C6150B30AB001C1EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F24A60C7150B30AB001C1EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24A609F150B30AA001C1EA5 /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A60C0150B30AB001C1EA5 /* Debug */,
+				F24A60C1150B30AB001C1EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24A60C2150B30AB001C1EA5 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A60C3150B30AB001C1EA5 /* Debug */,
+				F24A60C4150B30AB001C1EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F24A60C5150B30AB001C1EA5 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A60C6150B30AB001C1EA5 /* Debug */,
+				F24A60C7150B30AB001C1EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24A609C150B30AA001C1EA5 /* Project object */;
+}
