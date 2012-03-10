@@ -20,10 +20,10 @@
 		F24A60A5150B30AA001C1EA5 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24A60A9150B30AA001C1EA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F24A60AB150B30AA001C1EA5 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		F24A60B0150B30AB001C1EA5 /* Timer-Info.plist */ = {isa = PBXFileReference; path = "Timer-Info.plist"; sourceTree = "<group>"; };
+		F24A60B0150B30AB001C1EA5 /* Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer-Info.plist"; sourceTree = "<group>"; };
 		F24A60B2150B30AB001C1EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F24A60B4150B30AB001C1EA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F24A60B6150B30AB001C1EA5 /* Timer-Prefix.pch */ = {isa = PBXFileReference; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
+		F24A60B6150B30AB001C1EA5 /* Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
 		F24A60B9150B30AB001C1EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F24A60BC150B30AB001C1EA5 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		F24A60BE150B30AB001C1EA5 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
